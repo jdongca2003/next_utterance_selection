@@ -5,6 +5,7 @@ This is a TensorFlow implementation of the model described in:
 Jianxiong Dong, Jim Huang
 [Enhance Word Representation For Out-of-Vocabulary on Ubuntu Dialogue Corpus](https://arxiv.org/pdf/1802.02614.pdf).
 
+The model has acheived the state-of-the-art performane on Ubuntu Dialogue Corpus V2 and Douban Chinese dialogue corpus.
 
 ## Contact
 ***Code author:*** Jianxiong Dong (github: jdongca2003)
@@ -40,7 +41,7 @@ sh download.sh
 ## Training a model
 
 Execute the following commands to start the training script. By default it will
-run for 230k steps to achieve maximum MRR on the validation set.
+run for 230k steps to achieve maximum mean reciprocal rank on the validation set.
 
 ```shell
 cd bin
