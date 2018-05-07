@@ -26,11 +26,10 @@ virtualenv --system-site-packages tensorfow_dev
 source tensorflow_dev/bin/activate
 pip install --upgrade pip
 pip install tensorflow-gpu==1.4.0
-
 ```
 
 2. 16GB of RAM. 32GB is recommended.
-3. A machine with NVIDIA GPU card is preferable. It has been tested with NVIDIA Titan Xp.
+3. A machine with NVIDIA GPU card (large GPU RAM)  is preferable. It has been tested with NVIDIA Titan Xp (12G GPU RAM).
 
 ## Dataset
 
