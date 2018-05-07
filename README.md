@@ -32,7 +32,7 @@ the processed dataset has been provided.
 
 
 ```shell
-cd next_utterance_selection/data
+cd data
 sh download.sh
 
 ```
@@ -43,7 +43,7 @@ Execute the following commands to start the training script. By default it will
 run for 230k steps to achieve maximum MRR on the validation set.
 
 ```shell
-cd next_utterance_selection/bin
+cd bin
 nohup sh ubuntu_train.sh &
 ```
 
@@ -51,7 +51,7 @@ nohup sh ubuntu_train.sh &
 If several runs exist in 'runs' folder,  the checkpoints of the latest run is used to evaluate the model performance.
 
 ```shell
-cd next_utterance_selection/bin
+cd bin
 sh ubuntu_test.sh 
 ```
 
