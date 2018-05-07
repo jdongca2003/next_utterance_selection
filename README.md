@@ -8,23 +8,29 @@ Jianxiong Dong, Jim Huang
 The model has acheived the state-of-the-art performane on Ubuntu Dialogue Corpus V2 and Douban Chinese dialogue corpus.
 
 ## Contact
-***Code author:*** Jianxiong Dong (github: jdongca2003)
+***Code author:*** Jianxiong Dong
 
 
 ## Contents
-* [Getting Started](#getting-started)
-    * [Install Required Packages](#install-required-packages)
+* [Requirements](#Requirements)
 * [Dataset](#Dataset)
 * [Training a model](#Training-a-model)
 * [Evaluating a Model](#Evaluating-a-model)
 
-## Getting Started
+## Requirements
 
-### Install Required Packages
-First ensure that you have installed the following required packages:
+1. Install the Tensorflow library ([instructions](https://www.tensorflow.org/install/)). For example:
 
-* **TensorFlow-gpu 1.4.0** ([instructions](https://www.tensorflow.org/install/))
+```
+virtualenv --system-site-packages tensorfow_dev
+source tensorflow_dev/bin/activate
+pip install --upgrade pip
+pip install tensorflow-gpu==1.4.0
 
+```
+
+2. 16GB of RAM. 32GB is recommended.
+3. A machine with NVIDIA GPU card is preferable. It has been tested with NVIDIA Titan Xp.
 
 ## Dataset
 
